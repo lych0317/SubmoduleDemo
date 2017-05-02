@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "StaticLibForSubmodule.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    StaticLibForSubmodule *module = [[StaticLibForSubmodule alloc] init];
+    module.name = @"af";
+    NSLog(@"name %@", module.name);
 }
 
 

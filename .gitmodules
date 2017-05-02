@@ -1,0 +1,3 @@
+[submodule "StaticLib"]
+	path = StaticLib
+	url = git@github.com:lych0317/StaticLibForSubmodule.git

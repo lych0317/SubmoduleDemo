@@ -13,6 +13,7 @@
 		4844E7781EB8939B00CB4AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4844E7761EB8939B00CB4AAA /* Main.storyboard */; };
 		4844E77A1EB8939B00CB4AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4844E7791EB8939B00CB4AAA /* Assets.xcassets */; };
 		4844E77D1EB8939B00CB4AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4844E77B1EB8939B00CB4AAA /* LaunchScreen.storyboard */; };
+		4844E7A21EB8995800CB4AAA /* StaticLibForSubmodule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4844E7A11EB8995800CB4AAA /* StaticLibForSubmodule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4844E7791EB8939B00CB4AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4844E77C1EB8939B00CB4AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4844E77E1EB8939B00CB4AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4844E7A01EB8995800CB4AAA /* StaticLibForSubmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticLibForSubmodule.h; sourceTree = "<group>"; };
+		4844E7A11EB8995800CB4AAA /* StaticLibForSubmodule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticLibForSubmodule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		4844E7611EB8939A00CB4AAA = {
 			isa = PBXGroup;
 			children = (
+				4844E79F1EB8995800CB4AAA /* StaticLibForSubmodule */,
 				4844E76C1EB8939A00CB4AAA /* SubmoduleDemo */,
 				4844E76B1EB8939A00CB4AAA /* Products */,
 			);
@@ -77,6 +81,16 @@
 				4844E76E1EB8939A00CB4AAA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4844E79F1EB8995800CB4AAA /* StaticLibForSubmodule */ = {
+			isa = PBXGroup;
+			children = (
+				4844E7A01EB8995800CB4AAA /* StaticLibForSubmodule.h */,
+				4844E7A11EB8995800CB4AAA /* StaticLibForSubmodule.m */,
+			);
+			name = StaticLibForSubmodule;
+			path = StaticLib/StaticLibForSubmodule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4844E7A21EB8995800CB4AAA /* StaticLibForSubmodule.m in Sources */,
 				4844E7751EB8939A00CB4AAA /* ViewController.m in Sources */,
 				4844E7721EB8939A00CB4AAA /* AppDelegate.m in Sources */,
 				4844E76F1EB8939A00CB4AAA /* main.m in Sources */,
@@ -314,6 +329,7 @@
 				4844E7831EB8939B00CB4AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
